@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.embed {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.embed-header {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.embed-content {
+    padding: 15px;
+}
+
+.embed-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
