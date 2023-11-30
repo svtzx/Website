@@ -1,18 +1,51 @@
-p {
+html {
+    background: url("https://media.giphy.com/media/AXxl9iwO9wFQTlkh9C/giphy.gif"), 
+                url("https://cdn.discordapp.com/attachments/210340583150059521/1179430962308853860/18.canva-black-sky-galaxy-stars-desktop-wallpaper-iwmz0xn6kxs.jpg");
+    background-size: auto;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+/* Styling for the outside */
+.outside-paragraph {
+    margin-top: 1cm;
     color: #ffffff;
     text-shadow: 0 0 4px #fff, 0 0 10px #ff0, 0 0 20px #ff8000, 0 0 40px #f00, 2px 2px 2px rgba(206, 89, 55, 0);
     font-family: "Courier New", Courier, monospace; 
-    font-size: 70px;
-    letter-spacing: 40px;
+    font-size: 85px;
+    letter-spacing: 25px;
     font-weight: 700;
     text-decoration: none; 
     text-align: center;
     text-transform: lowercase;
+    font-variant: small-caps;
 }
 
-html {
-    background-image: 
-        url("https://media.giphy.com/media/AXxl9iwO9wFQTlkh9C/giphy.gif"), 
-        url("https://cdn.discordapp.com/attachments/210340583150059521/1179430962308853860/18.canva-black-sky-galaxy-stars-desktop-wallpaper-iwmz0xn6kxs.jpg");
-    background-size: cover; 
+/* Styling for the container */
+.first-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for the content inside */
+.first-container-inside {
+    padding: 16rem;
+    width: 70rem;  
+    margin-top: 0rem;
+    background: rgba(248, 249, 250, 0);
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 4px #fff, 0 0 10px #ff0, 0 0 20px #ff8000, 0 0 40px #f00, 2px 2px 2px rgba(206, 89, 55, 0);
+    font: 700 2rem/1 "Courier New", Courier, monospace;
+    text-decoration: none;
+    border-radius: 60px;
+    box-shadow: #FFF 0px 0px 25px, #FFF 0px 0px 2px, #FFF 0px 0px 3px, #FFF 0px 0px 4px, #FFF 0px 0px 5px, #FF2D95 0px 0px 10px, #FFF 0px 0px 12px, #FFF 0px 0px 15px;
 }
