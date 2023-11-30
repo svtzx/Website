@@ -35,17 +35,23 @@ body {
     align-items: center;
 }
 
-/* Styling for the content inside */
-.first-container-inside {
-    padding: 16rem;
+/* Styling for the content inside 
+ padding: 16rem;
     width: 70rem;  
-    margin-top: 0rem;
+    margin-top: 0rem;*/
+.first-container-inside {
+    margin: -15rem;
     background: rgba(248, 249, 250, 0);
     text-align: center;
     color: #fff;
     text-shadow: 0 0 4px #fff, 0 0 10px #ff0, 0 0 20px #ff8000, 0 0 40px #f00, 2px 2px 2px rgba(206, 89, 55, 0);
     font: 700 2rem/1 "Courier New", Courier, monospace;
     text-decoration: none;
-    border-radius: 60px;
+    border-radius: 160px;
     box-shadow: #FFF 0px 0px 25px, #FFF 0px 0px 2px, #FFF 0px 0px 3px, #FFF 0px 0px 4px, #FFF 0px 0px 5px, #FF2D95 0px 0px 10px, #FFF 0px 0px 12px, #FFF 0px 0px 15px;
 }
+
+.zoom-50 {
+    zoom: 0.9;
+    transform: scale(.6);
+  }
