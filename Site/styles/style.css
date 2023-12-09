@@ -55,3 +55,7 @@ body {
     zoom: 0.9;
     transform: scale(.6);
   }
+
+  .hidden {
+    display: none;
+}
