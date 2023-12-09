@@ -5,8 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const revealedContent = document.querySelector(".first-container");
 
     revealButton.addEventListener("click", function () {
-        body.classList.add("reveal");
-        revealButton.style.display = "none"; // Hide the button after click
+        body.classList.toggle("hidden"); // Toggle the 'hidden' class on body
         revealedContent.style.display = "flex"; // Show the container
         audio.play();
     });
