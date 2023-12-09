@@ -35,10 +35,7 @@ body {
     align-items: center;
 }
 
-/* Styling for the content inside 
- padding: 16rem;
-    width: 70rem;  
-    margin-top: 0rem;*/
+/* Styling for the content inside */
 .first-container-inside {
     margin: -15rem;
     background: rgba(248, 249, 250, 0);
@@ -54,8 +51,12 @@ body {
 .zoom-50 {
     zoom: 0.9;
     transform: scale(.6);
-  }
+}
 
-  .hidden {
+body:not(.reveal) {
+    display: none;
+}
+
+button.hidden {
     display: none;
 }
