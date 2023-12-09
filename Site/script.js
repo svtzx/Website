@@ -7,5 +7,13 @@ document.addEventListener("DOMContentLoaded", function () {
         revealButton.classList.add("hidden");
         document.querySelector(".first-container").classList.remove("hidden");
         audio.play();
+
+        // Additional code to update content dynamically
+        updateContent();
     });
+
+    function updateContent() {
+        // Add logic to dynamically update content here
+        // For example, you can toggle the visibility of different sections or replace content
+    }
 });
