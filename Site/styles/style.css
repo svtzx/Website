@@ -1,7 +1,4 @@
 html {
-    background: url("https://media.giphy.com/media/AXxl9iwO9wFQTlkh9C/giphy.gif"), 
-                url("https://cdn.discordapp.com/attachments/210340583150059521/1179430962308853860/18.canva-black-sky-galaxy-stars-desktop-wallpaper-iwmz0xn6kxs.jpg");
-    background-size: auto;
     margin: 0;
     overflow: hidden;
 }
@@ -11,6 +8,9 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0;
+    background: url("https://media.giphy.com/media/AXxl9iwO9wFQTlkh9C/giphy.gif"), 
+                url("https://cdn.discordapp.com/attachments/210340583150059521/1179430962308853860/18.canva-black-sky-galaxy-stars-desktop-wallpaper-iwmz0xn6kxs.jpg");
+    background-size: auto;
 }
 
 /* Styling for the button */
