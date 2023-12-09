@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     revealButton.addEventListener("click", function () {
         body.classList.add("reveal");
-        revealButton.classList.add("hidden");
-        revealedContent.classList.remove("hidden");
+        revealButton.style.display = "none"; // Hide the button after click
+        revealedContent.style.display = "flex"; // Show the container
         audio.play();
     });
 });
