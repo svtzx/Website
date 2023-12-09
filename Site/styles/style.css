@@ -13,6 +13,12 @@ body {
     background-size: auto;
 }
 
+/* Styling for the button container */
+.button-container {
+    position: relative;
+    z-index: 1;
+}
+
 /* Styling for the button */
 #revealButton {
     margin-top: 1cm;
