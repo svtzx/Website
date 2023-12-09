@@ -53,10 +53,7 @@ body {
     transform: scale(.6);
 }
 
-body:not(.reveal) {
-    display: none;
-}
-
+/* Remove body:not(.reveal) rule */
 button.hidden {
     display: none;
 }
