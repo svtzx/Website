@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Function to load additional content
+    // Function to load additional content and start audio playback
     function loadAdditionalContent() {
         // Use fetch to load the content from the specified URL
         fetch('https://svtzx.com/Site/styles/maincontent.html')
@@ -7,6 +7,12 @@ document.addEventListener('DOMContentLoaded', function () {
             .then(data => {
                 // Replace the entire document's HTML with the loaded HTML
                 document.documentElement.innerHTML = data;
+
+                // Start audio playback
+                const audio = document.getElementById('autoplayAudio');
+                if (audio) {
+                    audio.play();
+                }
             })
             .catch(error => console.error('Error fetching content:', error));
     }
@@ -17,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Prevent the default behavior of the link
         event.preventDefault();
 
-        // Load additional content when the button is clicked
+        // Load additional content and start audio playback when the button is clicked
         loadAdditionalContent();
     });
 });
