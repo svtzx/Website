@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Function to load additional content
     function loadAdditionalContent() {
         // Use fetch to load the content from the specified URL
-        fetch('https://svtzx.github.io/Website/Site/styles/maincontent.html')
+        fetch('https://svtzx.com/Site/styles/maincontent.html')
             .then(response => response.text())
             .then(data => {
                 // Replace the entire document's HTML with the loaded HTML
